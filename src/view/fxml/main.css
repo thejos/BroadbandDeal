@@ -1,0 +1,33 @@
+/**
+ *
+ * @author: Dejan Smiljić; e-mail: dej4n.s@gmail.com
+ *
+ */
+
+#mainPane {
+    -fx-background-image: url(internetLOGO_opt.png);
+    -fx-background-size: cover;
+    
+}
+
+#topPane, #lowerPane {
+    -fx-background-image: url(dark-grey-tile.png);
+}
+
+#submitBtn {
+    -fx-background-color: #aeec75;
+    -fx-border-radius: 5%;
+}
+
+#submitBtn:hover {
+    -fx-background-color: #a6e91a;
+}
+
+#deleteBtn {
+    -fx-background-color: #51b4f2;
+    -fx-border-radius: 5%;
+}
+
+#deleteBtn:hover {
+    -fx-background-color: #2da5ef;
+}
